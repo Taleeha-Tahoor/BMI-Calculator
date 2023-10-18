@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Under">#C3B324</color>
+    <color name="Over">#9E2F27</color>
+    <color name="Healthy">#56782E</color>
+</resources>

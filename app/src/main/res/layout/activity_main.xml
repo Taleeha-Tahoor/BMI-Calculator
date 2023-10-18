@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/ll"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:text="BMI Calculator"
+        android:textColor="#0E0E0E"
+        android:textSize="35sp"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/weight"
+      android:ems="10"
+      android:hint="@string/wt"
+        android:textColorHint="#9A000000"
+      android:inputType="number"
+        android:textColor="#0E0E0E"
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/height"
+        android:ems="10"
+        android:hint="@string/h_Ft"
+        android:inputType="number"
+        android:textColor="#0E0E0E"
+        android:textColorHint="#9A000000"
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/heightIn"
+        android:ems="10"
+        android:hint="@string/h_In"
+        android:textColor="#0E0E0E"
+        android:inputType="number"
+        android:textColorHint="#9A000000"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Calculate"
+        android:background="@drawable/square_button"
+        android:id="@+id/btn_Cal"/>
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/result"
+         android:layout_margin="40dp"
+         android:textSize="23sp"
+         android:textColor="#101010"/>
+</LinearLayout>
